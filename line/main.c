@@ -28,8 +28,9 @@ int main() {
 
   draw_line(0, 0, 400, 350, s, c);
 
+  //Note: Display may not work on your system
+  //save_ppm and save_extension should be fine
   display(s);
-
   save_ppm(s, "pic.ppm");
   save_extension(s, "whatevs.png");
 }  
